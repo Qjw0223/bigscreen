@@ -6,7 +6,7 @@
           <icon name="chart-line" class="text-icon"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2"></span>
+          <span class="fs-xl text mx-2">在护病人</span>
         </div>
       </div>
       <div class="d-flex jc-center body-box">
@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       config: {
-        header: ['组件', '分支', '覆盖率'],
+        header: ['病床', '科室', '天数'],
         data: [
           ['组件1', 'dev-1', "<span  class='colorGrass'>↑75%</span>"],
           ['组件2', 'dev-2', "<span  class='colorRed'>↓33%</span>"],

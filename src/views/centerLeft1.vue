@@ -6,7 +6,7 @@
           <icon name="chart-bar" class="text-icon"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">任务通过率</span>
+          <span class="fs-xl text mx-2">收入预览</span>
           <dv-decoration-3 class="dv-dec-3" />
         </div>
       </div>
@@ -26,7 +26,7 @@
           </div>
           <p class="text" style="text-align: center;">
             {{ item.text }}
-            <span class="colorYellow">(件)</span>
+            <span class="colorYellow">(元)</span>
           </p>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '今日构建总量'
+          text: '月收入总数'
         },
         {
           number: {
@@ -62,7 +62,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '总共完成数量'
+          text: '年收入总数'
         },
         {
           number: {
@@ -74,7 +74,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '正在编译数量'
+          text: '未退还押金总数'
         },
         {
           number: {
@@ -86,7 +86,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '未通过数量'
+          text: '当天收入总数'
         }
       ]
     }

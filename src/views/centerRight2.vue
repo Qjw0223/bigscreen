@@ -5,7 +5,7 @@
         <span>
           <icon name="align-left" class="text-icon"></icon>
         </span>
-        <span class="fs-xl text mx-2">产品销售渠道分析</span>
+        <span class="fs-xl text mx-2">主要分布科室</span>
       </div>
       <div class="d-flex ai-center flex-column body-box">
         <dv-capsule-chart class="dv-cap-chart" :config="config" />

@@ -20,12 +20,12 @@
         <span>
           <icon name="chart-pie" class="text-icon"></icon>
         </span>
-        <span class="fs-xl text mx-2 mb-1 pl-3">年度负责人组件达标榜</span>
+        <span class="fs-xl text mx-2 mb-1 pl-3">护工年度订单完成量</span>
         <dv-scroll-ranking-board class="dv-scr-rank-board mt-1" :config="ranking" />
       </div>
       <div class="percent">
         <div class="item bg-color-black">
-          <span>今日任务通过率</span>
+          <span>今日完结订单占比</span>
           <CenterChart
             :id="rate[0].id"
             :tips="rate[0].tips"
@@ -33,7 +33,7 @@
           />
         </div>
         <div class="item bg-color-black">
-          <span>今日任务达标率</span>
+          <span>今日新订单占比</span>
           <CenterChart
             :id="rate[1].id"
             :tips="rate[1].tips"
@@ -56,7 +56,7 @@ export default {
     return {
       titleItem: [
         {
-          title: '今年累计任务建次数',
+          title: '今年完结订单总数',
           number: {
             number: [120],
             toFixed: 1,
@@ -68,7 +68,7 @@ export default {
           }
         },
         {
-          title: '本月累计任务次数',
+          title: '本月完结订单总数',
           number: {
             number: [18],
             toFixed: 1,
@@ -80,7 +80,7 @@ export default {
           }
         },
         {
-          title: '今日累计任务次数',
+          title: '今日完结订单数',
           number: {
             number: [2],
             toFixed: 1,
@@ -92,7 +92,7 @@ export default {
           }
         },
         {
-          title: '今年失败任务次数',
+          title: '在护人数',
           number: {
             number: [14],
             toFixed: 1,
@@ -104,7 +104,7 @@ export default {
           }
         },
         {
-          title: '今年成功任务次数',
+          title: '护工人数',
           number: {
             number: [106],
             toFixed: 1,
@@ -116,7 +116,7 @@ export default {
           }
         },
         {
-          title: '今年达标任务个数',
+          title: '欠费待缴数额',
           number: {
             number: [100],
             toFixed: 1,
@@ -131,48 +131,48 @@ export default {
       ranking: {
         data: [
           {
-            name: '周口',
+            name: 'xxx',
             value: 55
           },
           {
-            name: '南阳',
+            name: 'xxx',
             value: 120
           },
           {
-            name: '西峡',
+            name: 'xxx',
             value: 78
           },
           {
-            name: '驻马店',
+            name: 'xxx',
             value: 66
           },
           {
-            name: '新乡',
+            name: 'xxx',
+            value: 50
+          },
+          {
+            name: 'xxx',
+            value: 91
+          },
+          {
+            name: 'xxx',
+            value: 29
+          },
+          {
+            name: 'xxx',
             value: 80
           },
           {
-            name: '新乡2',
-            value: 80
+            name: 'xxx',
+            value: 43
           },
           {
-            name: '新乡3',
-            value: 80
-          },
-          {
-            name: '新乡4',
-            value: 80
-          },
-          {
-            name: '新乡5',
-            value: 80
-          },
-          {
-            name: '新乡6',
-            value: 80
+            name: 'xxx',
+            value: 106
           }
         ],
         carousel: 'single',
-        unit: '人'
+        unit: '笔'
       },
       water: {
         data: [24, 45],
