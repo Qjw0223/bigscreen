@@ -24,7 +24,7 @@ export default {
       config: {
         data: [
           {
-            name: '南阳',
+            name: '骨科',
             value: 167
           },
           {
