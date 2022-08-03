@@ -59,11 +59,11 @@ export default {
           title: '今年完结订单总数',
           number: {
             number: [120],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 0,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         },
@@ -71,11 +71,11 @@ export default {
           title: '本月完结订单总数',
           number: {
             number: [18],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 0,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         },
@@ -83,11 +83,11 @@ export default {
           title: '今日完结订单数',
           number: {
             number: [2],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 0,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         },
@@ -95,11 +95,11 @@ export default {
           title: '在护人数',
           number: {
             number: [14],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 0,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         },
@@ -107,11 +107,11 @@ export default {
           title: '护工人数',
           number: {
             number: [106],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 0,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         },
@@ -119,11 +119,11 @@ export default {
           title: '欠费待缴数额',
           number: {
             number: [100],
-            toFixed: 1,
-            textAlign: 'left',
+            toFixed: 2,
+            textAlign: 'center',
             content: '{nt}',
             style: {
-              fontSize: 26
+              fontSize: 32
             }
           }
         }
@@ -166,21 +166,18 @@ export default {
             name: 'xxx',
             value: 43
           },
-          {
-            name: 'xxx',
-            value: 106
-          }
+
         ],
         carousel: 'single',
         unit: '笔'
       },
       water: {
-        data: [24, 45],
+        data: [60, 40],
         shape: 'roundRect',
         formatter: '{value}%',
-        waveNum: 3
+        waveNum: 4
       },
-      // 通过率和达标率的组件复用数据
+      // 占比的组件复用数据
       rate: [
         {
           id: 'centerRate1',
@@ -254,7 +251,7 @@ export default {
       padding: 10px;
       width: 59%;
       .dv-scr-rank-board {
-        height: 225px;
+        height: 224px;
       }
     }
     .percent {

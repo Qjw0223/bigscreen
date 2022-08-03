@@ -50,7 +50,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '月收入总数'
+          text: '当天收入总数'
         },
         {
           number: {
@@ -74,7 +74,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '未退还押金总数'
+          text: '未退还押金数'
         },
         {
           number: {
@@ -86,7 +86,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '当天收入总数'
+          text: '月收入总数'
         }
       ]
     }

@@ -43,7 +43,7 @@ export default {
             }
           },
           legend: {
-            data: ["已贯通", "计划贯通", "贯通率"],
+            data: ["贯通", "实际收入", "收入数额"],
             textStyle: {
               color: "#B4B4B4"
             },
@@ -92,7 +92,7 @@ export default {
           ],
           series: [
             {
-              name: "贯通率",
+              name: "贯通",
               type: "line",
               smooth: true,
               showAllSymbol: true,
@@ -107,9 +107,9 @@ export default {
               data: newData.rateData
             },
             {
-              name: "已贯通",
+              name: "实际收入",
               type: "bar",
-              barWidth: 10,
+              barWidth: 20,
               itemStyle: {
                 normal: {
                   barBorderRadius: 5,
@@ -122,10 +122,10 @@ export default {
               data: newData.barData
             },
             {
-              name: "计划贯通",
+              name: "收入数额",
               type: "bar",
               barGap: "-100%",
-              barWidth: 10,
+              barWidth: 20,
               itemStyle: {
                 normal: {
                   barBorderRadius: 5,
