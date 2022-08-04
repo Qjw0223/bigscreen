@@ -166,8 +166,8 @@ export default {
             name: 'xxx',
             value: 43
           },
-
         ],
+        sort:false,
         carousel: 'single',
         unit: '笔'
       },
